@@ -1,0 +1,207 @@
+main {
+  overflow-x: hidden;
+  width: 100%;
+}
+.main-container {
+  margin-top: 130px;
+}
+.main-orab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-title {
+  font-family: Livvic;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  margin-top: -190px;
+  margin-left: 130px;
+}
+span {
+  color: #f67e7e;
+}
+.line-main {
+  background: rgb(121, 200, 199);
+  width: 100%;
+  max-width: 50px;
+  height: 4px;
+  margin-bottom: 79px;
+  border: none;
+}
+.main-dack {
+  width: 100%;
+  max-width: 445px;
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 250px;
+}
+.bir {
+  position: relative;
+  overflow: hidden;
+}
+.rasm2 {
+  position: absolute;
+  left: -105px;
+  top: 0px;
+}
+.rasm1 {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+}
+// =============================================
+.main-birinchi-orab {
+  display: flex;
+  justify-content: space-between;
+}
+.birinchi {
+  margin-top: 140px;
+  background: rgb(1, 47, 52);
+  width: 100%;
+  padding: 20px 20px;
+}
+.line-main-birinchi {
+  background: rgb(246, 126, 126);
+  border: none;
+  width: 100%;
+  max-width: 50px;
+  height: 4px;
+}
+.birinchi-title {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 100%;
+  max-width: 445px;
+  margin-top: 50px;
+}
+.birinchi-ikkinchi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ikkinchi-birinchi {
+  width: 100%;
+  max-width: 540px;
+  display: flex;
+  gap: 30px;
+}
+.bbbbb {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ikkinchi-birinchi-title {
+  color: rgb(246, 126, 126);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.ikkinchi-birinchi-dack {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.8;
+  width: 100%;
+  max-width: 445px;
+}
+// ===================================
+.pas-title {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 55px;
+  margin-top: 140px;
+}
+.span {
+  color: #79c8c7;
+}
+.pas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+.img {
+  width: 67px;
+  margin-bottom: -15px;
+}
+.card-dack {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 100%;
+  max-width: 355px;
+  margin-bottom: 24px;
+}
+.card-orab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.omg1 {
+  border: 2px solid rgb(196, 255, 254);
+}
+.pas1-title {
+  color: rgb(121, 200, 199);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.link-main1 {
+  color: #ffffff7f;
+  margin-bottom: 30px;
+}
+.pasi-title {
+  color: rgb(1, 47, 52);
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.pasi-orab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.section {
+  background: rgb(246, 126, 126);
+  width: 100%;
+  padding: 76px 0;
+}
