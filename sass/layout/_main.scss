@@ -1,14 +1,15 @@
 main {
-  overflow-x: hidden;
   width: 100%;
-}
-.main-container {
-  margin-top: 130px;
 }
 .main-orab {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-top: 130px;
+}
+.birinchi {
+  background-image: url(../images/main.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .main-title {
   font-family: Livvic;
@@ -18,8 +19,8 @@ main {
   letter-spacing: 0px;
   text-align: left;
   color: #fff;
-  margin-top: -190px;
-  margin-left: 130px;
+  width: 100%;
+  max-width: 600px;
 }
 span {
   color: #f67e7e;
@@ -46,25 +47,34 @@ span {
 }
 .bir {
   position: relative;
-  overflow: hidden;
+  background: url(../images/main-imge2.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.main-container1 {
+  background-image: url(../images/main-image.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .rasm2 {
   position: absolute;
-  left: -105px;
-  top: 0px;
+  left: 0px;
+  top: 150px;
+  display: none;
 }
 .rasm1 {
   position: absolute;
-  bottom: -100px;
   right: 0;
+  bottom: 0;
+  display: none;
 }
+
 // =============================================
 .main-birinchi-orab {
   display: flex;
   justify-content: space-between;
 }
 .birinchi {
-  margin-top: 140px;
   background: rgb(1, 47, 52);
   width: 100%;
   padding: 20px 20px;
@@ -170,6 +180,7 @@ span {
 }
 .omg1 {
   border: 2px solid rgb(196, 255, 254);
+  border-radius: 50%;
 }
 .pas1-title {
   color: rgb(121, 200, 199);
@@ -195,13 +206,74 @@ span {
   text-align: left;
 }
 .pasi-orab {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 200px;
+  text-align: center;
+}
+.rasm5 {
+  margin-bottom: -60px;
+  margin-left: -50px;
+  padding-right: 50px;
 }
 .section {
   background: rgb(246, 126, 126);
   width: 100%;
-  padding: 76px 0;
+  padding: 55px 0;
+  display: flex;
+  align-items: center;
+}
+.orab7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .pasi-orab {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .rasm5 {
+    display: none;
+  }
+  .pasi-title {
+    font-size: 30px;
+  }
+  .main-birinchi-orab {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .birinchi-title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .main-orab {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-title {
+    margin-top: 100px;
+    font-size: 50px;
+  }
+  .bir {
+    background: none;
+  }
+  .main-container1 {
+    margin-top: -200px;
+    background-position: bottom;
+  }
+}
+@media (max-width: 1000px) {
+  .card-orab {
+    flex-direction: column;
+  }
+  .pas-title {
+    font-size: 35px;
+  }
 }
